@@ -82,7 +82,7 @@ const FooterBar = () => (
       .
       Coded by
       {' '}
-      <a href="https://atsuno.github.io/frontendmentor-easybank-landing-page/" target="_blank" rel="noreferrer noopener">Atsuno</a>
+      <a href="https://github.com/Atsuno/frontendmentor-easybank-landing-page" target="_blank" rel="noreferrer noopener">Atsuno</a>
       .
     </div>
   </section>
