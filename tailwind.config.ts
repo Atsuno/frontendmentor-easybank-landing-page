@@ -1,6 +1,8 @@
 import daisyui from 'daisyui'
 import type { Config } from 'tailwindcss'
 
+const REPO_PATH = '/frontendmentor-easybank-landing-page'
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -34,8 +36,8 @@ const config: Config = {
         '18percen': '18%',
       },
       backgroundImage: {
-        'hero-intro-mobile': "url('/images/bg-intro-mobile.svg')",
-        'hero-intro-desktop': "url('/images/bg-intro-desktop.svg')",
+        'hero-intro-mobile': `url('${REPO_PATH}/images/bg-intro-mobile.svg')`,
+        'hero-intro-desktop': `url('${REPO_PATH}/images/bg-intro-desktop.svg')`,
       },
     },
   },

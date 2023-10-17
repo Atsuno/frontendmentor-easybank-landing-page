@@ -9,25 +9,25 @@ type ArticleList = {
 }
 
 const articlelists: Array<ArticleList> = [{
-  src: '/images/image-currency.jpg',
+  src: './images/image-currency.jpg',
   alt: 'picture currency',
   name: 'By Claire Robinson',
   header: 'Receive money in any currency with no fees',
   desc: 'The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …',
 }, {
-  src: '/images/image-restaurant.jpg',
+  src: './images/image-restaurant.jpg',
   alt: 'picture restaurant',
   name: 'By Wilson Hutton',
   header: 'Treat yourself without worrying about money',
   desc: 'Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …',
 }, {
-  src: '/images/image-plane.jpg',
+  src: './images/image-plane.jpg',
   alt: 'picture plane',
   name: 'By Wilson Hutton',
   header: 'Take your Easybank card wherever you go',
   desc: 'We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …',
 }, {
-  src: '/images/image-confetti.jpg',
+  src: './images/image-confetti.jpg',
   alt: 'picture confetti',
   name: 'By Claire Robinson',
   header: 'Our invite-only Beta accounts are now live!',

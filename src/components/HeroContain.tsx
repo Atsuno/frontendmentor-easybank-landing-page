@@ -82,7 +82,7 @@ const HeroContain = () => (
     <div className="flex flex-col md:flex-row">
 
       <div className="bg-hero-intro-mobile bg-center bg-no-repeat md:relative md:order-2 md:w-[55%] md:bg-hero-intro-desktop md:bg-left lg:-mt-14 lg:bg-auto">
-        <Image className="-mt-12 px-2 md:absolute md:left-[19%] md:top-0 md:-mt-16 lg:left-[21%]" priority width={767} height={939} src="/images/image-mockups.png" alt="banner" />
+        <Image className="-mt-12 px-2 md:absolute md:left-[19%] md:top-0 md:-mt-16 lg:left-[21%]" priority width={767} height={939} src="./images/image-mockups.png" alt="banner" />
       </div>
 
       <div className="px-2 pb-14 pt-8 md:w-[45%] md:p-5percen lg:self-center lg:p-10percen lg:pr-10">
