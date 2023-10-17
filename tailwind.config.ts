@@ -1,5 +1,4 @@
 import daisyui from 'daisyui'
-import daisyuiThemes from 'daisyui/src/theming/themes'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -12,40 +11,40 @@ const config: Config = {
     extend: {
       fontFamily: {
         primary: ['var(--font-primary)'],
-        secondary: ['var(--font-secondary)'],
       },
       colors: {
-        specific: '#F0F0F0',
+        'primarty-one': 'hsl(233, 26%, 24%)',
+        'primarty-two': 'hsl(136, 65%, 51%)',
+        'primarty-three': 'hsl(192, 70%, 51%)',
+        'neutral-one': 'hsl(233, 8%, 62%)',
+        'neutral-two': 'hsl(220, 16%, 96%)',
+        'neutral-three': 'hsl(0, 0%, 98%)',
+        'link-footer': 'hsl(228, 45%, 44%)',
+      },
+      margin: {
+        '5percen': '5%',
+        '8percen': '8%',
+        '10percen': '10%',
+        '18percen': '18%',
+      },
+      padding: {
+        '5percen': '5%',
+        '8percen': '8%',
+        '10percen': '10%',
+        '18percen': '18%',
+      },
+      backgroundImage: {
+        'hero-intro-mobile': "url('/images/bg-intro-mobile.svg')",
+        'hero-intro-desktop': "url('/images/bg-intro-desktop.svg')",
       },
     },
   },
   plugins: [daisyui],
   daisyui: {
     themes: [{
-      light: {
-        ...daisyuiThemes['[data-theme=cmyk]'],
-        /*
-        primary: '', // dominant color.
-        secondary: '', // less dominant but still distinguishable.
-        accent: '', // draw attention, notifications, highlighted text
-        neutral: '', // shades of blacks, grays, and whites. don't convey a specific mood or emotion on their own.
-        'base-100': '', // base backgrounds color.
-        'base-content': '', // base content color.
-        */
-      },
-      dark: {
-        ...daisyuiThemes['[data-theme=dark]'],
-        /*
-        primary: '', // dominant color.
-        secondary: '', // less dominant but still distinguishable.
-        accent: '', // draw attention, notifications, highlighted text
-        neutral: '', // shades of blacks, grays, and whites. don't convey a specific mood or emotion on their own.
-        'base-100': '', // base backgrounds color.
-        'base-content': '', // base content color.
-        */
-      },
+      light: {},
     }],
-    darkTheme: 'dark',
+    darkTheme: 'light',
     logs: false,
   },
 }

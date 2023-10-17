@@ -1,6 +1,12 @@
+# live Demo
+
+https://atsuno.github.io/frontendmentor-easybank-landing-page
+
+>The below information is original challenge README from [CHALLENGE Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+
 # Frontend Mentor - Easybank landing page
 
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./challenge/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
